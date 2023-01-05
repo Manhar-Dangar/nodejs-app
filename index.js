@@ -5,7 +5,7 @@ app.get("/", (req, res) => {
   res.send({ hello: "Welcome to AgriSathi." }); 
 });
 
-const PORT = process.env.PORT || 80;
+const PORT = process.env.PORT || 443;
 app.listen(PORT, function() {
   console.log(`App listening on port ${PORT}`); 
 });
