@@ -5,7 +5,6 @@ pipeline {
         stage('Build') {
             steps {
                 echo "Building.. ${BRANCH_NAME}"
-                sh 'npm i'
             }
         }
         stage('Test') {
